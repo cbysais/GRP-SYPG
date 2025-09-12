@@ -1,24 +1,25 @@
 {
-	"folders": [
-		{
-			"path": "."
-		}
-	],
-	"settings": {
-		"files.associations": {
-			"*.css": "tailwindcss"
-		},
-		"editor.quickSuggestions": {
-			"strings": "on"
-		},
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.formatOnSave": true
-	},
-	"extensions": {
-		"recommendations": [
-			"bradlc.vscode-tailwindcss",
-			"dbaeumer.vscode-eslint",
-			"esbenp.prettier-vscode"
-		]
-	}
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "files.associations": {
+      "*.css": "tailwindcss"
+    },
+    "editor.quickSuggestions": {
+      "strings": "on"
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true
+  },
+  "extensions": {
+    "recommendations": [
+      "bradlc.vscode-tailwindcss",
+      "dbaeumer.vscode-eslint",
+      "esbenp.prettier-vscode",
+      "vstirbu.vscode-mermaid-preview"
+    ]
+  }
 }
