@@ -15,7 +15,8 @@
 	"extensions": {
 		"recommendations": [
 			"bradlc.vscode-tailwindcss",
-			"dbaeumer.vscode-eslint"
+			"dbaeumer.vscode-eslint",
+			"esbenp.prettier-vscode"
 		]
 	}
 }
