@@ -9,7 +9,27 @@ export default defineConfig({
     react(),
     tailwindcss(),
     svgr({
-      svgrOptions: {},
+      svgrOptions: {
+        plugins: ["@svgr/plugin-svgo", "@svgr/plugin-jsx"],
+        svgoConfig: {
+          plugins: [
+            {
+              name: "preset-default",
+              params: {
+                overrides: {
+                  removeViewBox: false,
+                  cleanupIds: {
+                    minify: false,
+                  },
+                },
+              },
+            },
+            "removeXMLNS",
+            "convertStyleToAttrs",
+            "removeDimensions",
+          ],
+        },
+      },
       esbuildOptions: {},
       include: "**/*.svg?react",
       exclude: "",
