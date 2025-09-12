@@ -15,14 +15,16 @@
     "editor.formatOnSave": true,
     "editor.codeActionsOnSave": {
       "source.organizeImports": "explicit"
-    }
+    },
+    "svg.preview.background": "transparent"
   },
   "extensions": {
     "recommendations": [
       "bradlc.vscode-tailwindcss",
       "dbaeumer.vscode-eslint",
       "esbenp.prettier-vscode",
-      "vstirbu.vscode-mermaid-preview"
+      "vstirbu.vscode-mermaid-preview",
+      "jock.svg"
     ]
   }
 }
