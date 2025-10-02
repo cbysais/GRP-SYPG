@@ -18,6 +18,10 @@ const pool = new Pool({
 app.post("/register", async (req, res) => {
   const { username, email, password } = req.body;
 
+  if (username.length === 0 || email.length === 0 || password.length === 0) {
+    return res.sendStatus(400);
+  }
+
   try {
     // Hash password
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -38,6 +42,10 @@ app.post("/register", async (req, res) => {
 // LOGIN user
 app.post("/login", async (req, res) => {
   const { email, password } = req.body;
+
+  if (email.length === 0 || password.length === 0) {
+    return res.sendStatus(400);
+  }
 
   try {
     const result = await pool.query("SELECT * FROM users WHERE email = $1", [
