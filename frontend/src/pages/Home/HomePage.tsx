@@ -4,7 +4,7 @@ import Register from "../../components/Register";
 function HomePage() {
   return (
     <div>
-      <h1>GRP SYPG's User Auth System</h1>
+      <h1 className="font-bold text-blue-700">GRP SYPG's User Auth System</h1>
       <Register />
       <hr />
       <Login />
