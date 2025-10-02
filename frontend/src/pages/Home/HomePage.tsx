@@ -1,12 +1,13 @@
-import SignIn from "../../components/SignIn";
-import SignUp from "../../components/SignUp";
+import Login from "../../components/Login";
+import Register from "../../components/Register";
 
 function HomePage() {
   return (
     <div>
-      <span>GRP-SYPG</span>
-      <SignUp />
-      <SignIn />
+      <h1>GRP SYPG's User Auth System</h1>
+      <Register />
+      <hr />
+      <Login />
     </div>
   );
 }
