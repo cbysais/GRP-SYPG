@@ -5,7 +5,7 @@ function LoginPage() {
   return (
     <div className="flex h-screen w-screen flex-col items-center justify-center bg-radial from-green-600 from-50% to-green-800 py-4">
       <div className="flex h-max w-max flex-col items-center justify-center">
-        <span className="text-2xl text-white">GRP-PYB</span>
+        <span className="text-2xl text-white">GRP-SYPG</span>
         <span className="text-4xl text-white">Inventory Management System</span>
         <div className="mt-6 flex w-full flex-col items-center rounded-lg bg-white">
           <div className="h-12 w-full rounded-t-lg bg-gray-100" />
