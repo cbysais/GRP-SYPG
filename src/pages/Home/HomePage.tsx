@@ -1,4 +1,4 @@
-function LoginPage() {
+function HomePage() {
   return (
     <div>
       <span>GRP-SYPG</span>
@@ -6,4 +6,4 @@ function LoginPage() {
   );
 }
 
-export default LoginPage;
+export default HomePage;
